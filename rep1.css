@@ -1,0 +1,34 @@
+#blockA {
+    width: 100%;
+    height: 400px;
+    background-color: lightgray;
+    color: blue;
+    position: relative; 
+}
+#blockB {
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#blockC {
+    width: 110px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    line-height: 100px; 
+    color: yellow;
+    margin: 0 auto;
+}
+#blockD {
+    width: 80px;
+    height: 20px;
+    background-color: lightblue;
+    position: absolute; 
+    bottom: 0;
+    right: 0;
+}
